@@ -50,3 +50,5 @@ Route::resource('images', 'ImagesAPIController', [
 Route::resource('users', 'UserAPIController', [
     'only' => ['index', 'show', 'store', 'update', 'destroy']
 ]);
+
+Route::get('cariUser/{param}', 'UserAPIController@cariUser');

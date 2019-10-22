@@ -1,0 +1,277 @@
+html{ 
+ height: 100%;
+} 
+
+body{
+ height : 100%;
+ position: relative;
+ background: rgb(108,215,51);
+background-image: linear-gradient(to bottom, #00ff2c, #5bff1e, #80ff10, #9dff03, #b6ff00, #b6ff00, #b6ff00, #b6ff00, #9dff03, #80ff10, #5bff1e, #00ff2c);
+overflow-x: hidden;
+}
+.booking{
+	background: white;
+}
+header{
+	position: fixed;
+	z-index: 80;
+}
+.nav-gor{
+	width:100%	;
+
+}
+.logo-gor{
+	margin-left:20px;
+    width: 100px;
+}
+.btn-sign{
+	margin:15px	 20px;
+	width:95%;
+	background-color: white;
+	color: black;
+	border: none;
+	font-weight: bolder;
+}
+.btn-sign:hover{
+	color: white;
+
+}
+.header-nav{
+	background-color: black;
+}
+
+
+.btn-act-sign{
+	margin-top: 8px;
+	background-color : #43CF62;
+	color:white;
+	width:100px;
+}
+.img-login{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.form-login, .form-register{
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.empass{
+	color:black;
+}
+.comment-login{
+	color:#6c757d;
+}
+.login-box, .register-box{
+	z-index: 100;
+    border-radius: 10px;
+    height: 100%;
+    max-height: 500px;
+    max-width: 900px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+
+}
+.pembayaran-box{
+	padding:20px 40px;
+    border-radius: 10px;
+    height: 100%;
+    max-height: 450px;
+    max-width: 400px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #e7e7e7;
+    text-align: center;
+}
+.col-center{
+	padding:0px;
+}
+.title-form{
+	margin-top: 20px;
+	margin-left:20px;
+	border-bottom: solid 2px #43CF62;
+}
+.blurry-background, .blurry-background-register{
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+	opacity: 0.7;
+	z-index: 90;
+	position: fixed;
+}
+#login-container, #register-container{
+	-webkit-transition: visibility 0.1s, opacity 0.1s ease-in-out;
+	transition: visibility 0.1s, opacity 0.1s ease-in-out;
+}
+.no-padding{
+	padding:0px;
+}
+.search-box{
+	position: relative;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 30px;
+    font-weight: : 300;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    height: 100%;
+}
+.search-title{
+	font-weight: 800;
+}
+.maps{
+	height:25%;
+	max-height: 250px; 
+	margin:10px 5px;
+	background-color: black;
+	background-image: url(../assets/empty-maps.png);
+}
+.btn-cari {
+    background-color: #43CF62;
+    color: white;
+    border: none;
+    width: 80%;
+}
+.search-result{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 30px;
+    height: 100%;
+}
+.result{
+	padding: 20px 0px;
+	border-top: solid 1px #e7e7e7;
+	border-bottom: solid 1px #e7e7e7;
+	width: 100%;
+}
+.gor-img{
+	width:225px;
+}
+.gor-name{
+	color:#43CF62;
+	font-size: 25px;
+	font-weight: 700;
+
+}
+.gor-street{
+	color:black;
+	font-size:15px;
+	font-weight: 900;
+}
+.gor-price{
+	color:#43CF62;
+	font-weight:900;
+}
+.fasilitas-icon{
+	display: inline-block;
+}
+.ball-icon{
+	width:20px;
+}
+.field-icon{
+	max-width: 200px;
+}
+.star{
+	font-size: 25px;
+}
+.star-checked {
+  color: orange;
+}
+.gor-street-2{
+	background-color: white;
+	font-size: 15px;
+	padding:8px;
+}
+.desc-lap{
+	padding:20px;
+	background-color:#e7e7e7;
+	border-radius: 10px;
+}
+.name-lap{
+	font-size:20px;
+	font-weight: 900;
+}
+.desc-lap-text{
+	font-size: 15px;
+}
+.book-box{
+	width:80%;
+	height: 400px;
+	background-color: #e7e7e7;
+	border-radius: 10px;
+	padding:20px 30px;
+}
+.total-harga{
+	background-color: white;
+	padding:5px;
+	border-radius: 10px;
+}
+.review{
+	position: absolute;
+	margin-right: 20px;
+}
+.review-box{
+	background-color: #e7e7e7;
+	width:100%;
+	border-radius: 10px;
+	padding:20px 30px;
+}
+.review-desc{
+	font-size: 15px;
+}
+.rev{
+	margin: 10px 0px;
+	border-top: solid 1px white;
+	border-bottom: solid 1px white;
+}
+.starsss{
+	cursor: default;
+}
+.review-ta{
+	width: 100%;
+	height: 107px;
+}
+.header-pesanan{
+	margin-top: 100px;
+	text-align: center;
+	width: 90%;
+}
+.tabel-pesanan{
+	width:90%;
+}
+.tabel-pesanan, th,td{
+	text-align: center;
+	border: 1px solid black;
+
+}
+.greetings{
+	font-size:25px;
+}
+@media only screen and (max-width: 767px) {
+  .empass{
+  	color:white;
+  	text-shadow: 2px 2px 4px #000000;		
+  }
+  .comment-login{
+  	color:white;
+  	text-shadow: 2px 2px 4px #000000;	
+  }
+  .col-center{
+	  display:block;
+	  padding:100px;
+  }
+  .img-login{
+	  display:initial;
+  }
+}

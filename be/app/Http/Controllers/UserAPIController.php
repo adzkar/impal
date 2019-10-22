@@ -36,4 +36,10 @@ class UserAPIController extends Controller
 
         return response()->json([], \Illuminate\Http\Response::HTTP_NO_CONTENT);
     }
+
+    public function cariUser($value='')
+    {
+        return User::where('name','LIKE','%'.$value.'%')->get();
+    }
+
 }

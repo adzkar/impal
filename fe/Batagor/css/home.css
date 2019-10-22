@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,600,600i,700,700i,800,800i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:600&display=swap');
+body{
+	font-family: 'Muli', sans-serif;
+}
+.header{
+	padding-top: 35px;
+}
+.header, .booking-area{
+	width:100%;
+}
+
+.header-content{
+	width:50%;
+	padding: 25px 100px 0px 0px;
+}
+
+h1.header-xl, h1, .header-xl {
+    color: #252628;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+p{
+	font-size: 24px;
+}
+div {
+  word-wrap: break-word;
+  line-height: 1.6;
+}
+.cartoon-play{
+	max-width:400px;
+}
+.booking-form{
+	width:50%;
+	border-radius:10px;
+	padding:20px 50px;
+	background-color:white;
+}
+
+input{
+	padding-left:8px;
+	border-radius:8px;
+	border: solid 1px;
+}
+.place-input{
+	border:solid 1px;
+	width:100%;
+}
+.date-input{
+	border:solid 1px;
+	width:50%;
+}
+ .free-area{
+ 	width: 50%;
+ }
+.text-book{
+	font-size:20px;
+}
+.type-gor{
+	padding-left:50px;
+}
+.cari-d{
+	margin-top:30px;
+}
+.cari-d button{
+		width:120px;
+}
+.free-area{
+	font-family: 'Quicksand', sans-serif;
+}
+.free-area h1{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	font-size:50px;
+}
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+.clear-img{
+	max-width: 100%;
+}
+.free-area p{
+	font-size:20px;
+}

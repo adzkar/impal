@@ -1,0 +1,49 @@
+.slide{
+	width: 0px;
+	height: 100%;
+	position: fixed;
+	background-color: #bdbdbd;
+	padding-top:75px;
+    -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+    opacity:0;
+    z-index: 70;
+ }
+.logo2{
+	max-width: 100%;
+}
+.page-break{
+	width: 95%;
+	border: solid 1px;
+}
+.btn-first{
+	background-color: #ff7400; 
+	color: white;
+	border: none;
+	width: 80%;
+}
+.close-btn{
+	margin-right:20px;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+	margin-top:10px;
+}
+.linked-a{
+	color: #007bff;
+	cursor: pointer;
+}
+.menu-item{
+	text-align: center;
+	width:90%;
+	height:40px;
+	font-size:20px;
+	font-weight: 600;
+	color:black;
+}
+.menu-item:hover{
+	color:grey;
+}
+.item-active{
+	text-decoration: underline;
+}
